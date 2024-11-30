@@ -17,7 +17,7 @@ async function main() {
   const client = new OpenBookV2Client(provider);
 
   const marketPublicKey = new PublicKey(
-    "BLr5UmvkfoVC4yth5CX2jBT5X75Z61gkLPMbJRNxiRqa"
+    "B4w5jLT7uQDMVcM3VqvaXhB8AnmGfPwsM9NgZn8HGq7w"
   );
   const market = await client.deserializeMarketAccount(marketPublicKey);
   if (!market) {
